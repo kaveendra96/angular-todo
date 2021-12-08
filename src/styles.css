@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.app {
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+.delete {
+    background-color: #741267; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.header-todo {
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
